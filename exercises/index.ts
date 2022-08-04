@@ -87,7 +87,7 @@ const getArtistAndAlbumsByArtistName = (arg: string): artistAlbum => {
 // const getArtistAndAlbumsByArtistName = (arg: string): artistAlbum => {
 //     let filteredArray: artistAlbum = [];
 //     let artist: Artist;
-//     artist = artists.find((item) => (item.name == arg));
+//     artist = artists.find((item) => (item.name = arg));
 //     //note spread operator before the function call - important to get the objects directly, not an array of objects
 //     filteredArray.push(artist, ...getAlbumsByArtistName(arg));
 //     return filteredArray;
